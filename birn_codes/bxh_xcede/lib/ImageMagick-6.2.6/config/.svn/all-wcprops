@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/bxh_xcede_tools/!svn/ver/2351/trunk/commonlibs/external_binaries/linux_static/lib/ImageMagick-6.2.6/config
+END
+colors.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/bxh_xcede_tools/!svn/ver/2351/trunk/commonlibs/external_binaries/linux_static/lib/ImageMagick-6.2.6/config/colors.xml
+END
+configure.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/bxh_xcede_tools/!svn/ver/2351/trunk/commonlibs/external_binaries/linux_static/lib/ImageMagick-6.2.6/config/configure.xml
+END
+type.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/bxh_xcede_tools/!svn/ver/2351/trunk/commonlibs/external_binaries/linux_static/lib/ImageMagick-6.2.6/config/type.xml
+END
+type-ghostscript.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/bxh_xcede_tools/!svn/ver/2351/trunk/commonlibs/external_binaries/linux_static/lib/ImageMagick-6.2.6/config/type-ghostscript.xml
+END
+english.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/bxh_xcede_tools/!svn/ver/2351/trunk/commonlibs/external_binaries/linux_static/lib/ImageMagick-6.2.6/config/english.xml
+END
+type-windows.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/bxh_xcede_tools/!svn/ver/2351/trunk/commonlibs/external_binaries/linux_static/lib/ImageMagick-6.2.6/config/type-windows.xml
+END
+type-solaris.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/bxh_xcede_tools/!svn/ver/2351/trunk/commonlibs/external_binaries/linux_static/lib/ImageMagick-6.2.6/config/type-solaris.xml
+END
+delegates.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/bxh_xcede_tools/!svn/ver/2351/trunk/commonlibs/external_binaries/linux_static/lib/ImageMagick-6.2.6/config/delegates.xml
+END
+locale.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/bxh_xcede_tools/!svn/ver/2351/trunk/commonlibs/external_binaries/linux_static/lib/ImageMagick-6.2.6/config/locale.xml
+END
