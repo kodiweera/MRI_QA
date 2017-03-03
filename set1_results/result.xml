@@ -1,0 +1,613 @@
+<?xml version="1.0"?>
+<serieslevel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://nbirn.net/Resources/Users/Applications/xcede/" xmlns:xcede="http://nbirn.net/Resources/Users/Applications/xcede/">
+  <subject>
+    <name>QA</name>
+    <sex>other</sex>
+  </subject>
+  <visit>
+    <subjectVar>
+      <age agetype="postnatal" units="years">17</age>
+    </subjectVar>
+  </visit>
+  <scanner>
+    <model>AWP66112</model>
+  </scanner>
+  <expProtocol>
+    <name>BOLD_p2</name>
+  </expProtocol>
+  <acqProtocol>
+    <name>%SiemensSeq%\ep2d_bold</name>
+    <acqParam name="examnumber" type="integer">18</acqParam>
+    <acqParam name="studyid" type="varchar">QA</acqParam>
+    <acqParam name="seriesnumber" type="integer">5</acqParam>
+    <acqParam name="runnumber" type="integer">1</acqParam>
+    <acqParam name="scanningsequence" type="varchar">EP</acqParam>
+    <acqParam name="sequencevariant" type="varchar">SK</acqParam>
+    <acqParam name="magneticfield" type="float">3</acqParam>
+    <acqParam name="description" type="varchar">BOLD_p2</acqParam>
+    <acqParam name="scandate" type="varchar">2017-01-03</acqParam>
+    <acqParam name="scantime" type="varchar">11:15:05</acqParam>
+    <acqParam name="tr" type="float">2000</acqParam>
+    <acqParam name="te" type="float">35.000000</acqParam>
+    <acqParam name="flipangle" type="float">90</acqParam>
+    <acqParam name="prescribedslicespacing" type="float">3.99</acqParam>
+    <acqParam name="frequencydirection" type="integer">1</acqParam>
+    <acqParam name="acquisitionmatrix" type="varchar">80 80</acqParam>
+    <acqParam name="bandwidth" type="float">185.2</acqParam>
+    <acqParam name="transmitcoilname" type="varchar">Body</acqParam>
+    <acqParam name="institution" type="varchar">Dartmouth College - PBS</acqParam>
+    <acqParam name="examdescription" type="varchar">dbic^QA</acqParam>
+    <acqParam name="scanner" type="varchar">AWP66112</acqParam>
+    <acqParam name="scannermanufacturer" type="varchar">SIEMENS</acqParam>
+    <acqParam name="scannermodelname" type="varchar">Prisma</acqParam>
+    <acqParam name="fieldofview" type="varchar">240 240</acqParam>
+    <acqParam name="psdname" type="varchar">%SiemensSeq%\ep2d_bold</acqParam>
+    <acqParam name="protocolname" type="varchar">BOLD_p2 (BOLD_p2) </acqParam>
+    <acqParam name="institutionaddress" type="varchar">Maynard 3,Hanover,NH,US,03755</acqParam>
+    <acqParam name="institutionaldepartmentname" type="varchar">Department</acqParam>
+    <acqParam name="scanoptions" type="varchar">FS</acqParam>
+    <acqParam name="mracquisitiontype" type="varchar">2D</acqParam>
+    <acqParam name="sequencename" type="varchar">*epfid2d1_80</acqParam>
+    <acqParam name="angioflag" type="varchar">N</acqParam>
+    <acqParam name="numaverages" type="varchar">1</acqParam>
+    <acqParam name="imagingfrequency" type="varchar">123.252609</acqParam>
+    <acqParam name="imagednucleus" type="varchar">1H</acqParam>
+    <acqParam name="spacingbetweenslices" type="varchar">3.9900000049744</acqParam>
+    <acqParam name="numphaseencodingsteps" type="varchar">79</acqParam>
+    <acqParam name="echotrainlength" type="varchar">39</acqParam>
+    <acqParam name="percentsampling" type="varchar">100</acqParam>
+    <acqParam name="percentphasefieldofview" type="varchar">100</acqParam>
+    <acqParam name="scannerserialnumber" type="varchar">66112</acqParam>
+    <acqParam name="softwareversions" type="varchar">syngo MR E11</acqParam>
+    <acqParam name="inplanephaseencodingdirection" type="varchar">COL</acqParam>
+    <acqParam name="variableflipangleflag" type="varchar">N</acqParam>
+    <acqParam name="sar" type="varchar">0.05562418006856</acqParam>
+    <acqParam name="dBdt" type="varchar">0</acqParam>
+    <acqParam name="acquisitionnumber" type="varchar">1</acqParam>
+    <acqParam name="instancenumber" type="varchar">1</acqParam>
+    <acqParam name="samplesperpixel" type="varchar">1</acqParam>
+    <acqParam name="photometricinterpretation" type="varchar">MONOCHROME2</acqParam>
+    <acqParam name="rows" type="varchar">480</acqParam>
+    <acqParam name="columns" type="varchar">480</acqParam>
+    <acqParam name="bitsallocated" type="varchar">16</acqParam>
+    <acqParam name="bitsstored" type="varchar">12</acqParam>
+    <acqParam name="highbit" type="varchar">11</acqParam>
+    <acqParam name="pixelbandwidth" type="varchar">2315</acqParam>
+    <acqParam name="otherinfo" type="varchar"/>
+    <acqParam name="sliceorder" type="varchar">2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,1,3,5,7,9,11,13,15,17,19,21,23,25,27,29</acqParam>
+  </acqProtocol>
+  <datarec type="image">
+    <!--  AUTOGEN: Orientation is oblique axial -->
+    <rasorigin>131.38520935356 78.0432053524457 -99.5896521781502</rasorigin>
+    <dimension type="x">
+      <size>80</size>
+      <origin>131.38520935356</origin>
+      <spacing>3</spacing>
+      <gap>0</gap>
+      <direction>-0.9792894 0.2024654 0.0002884583</direction>
+      <units>mm</units>
+    </dimension>
+    <dimension type="z-split1">
+      <size>6</size>
+      <origin>0</origin>
+      <spacing>0</spacing>
+      <gap>0</gap>
+    </dimension>
+    <dimension type="y">
+      <size>80</size>
+      <origin>78.0432053524457</origin>
+      <spacing>3</spacing>
+      <gap>0</gap>
+      <direction>-0.1924839 -0.9314504 0.308788</direction>
+      <units>mm</units>
+    </dimension>
+    <dimension type="z-split2" outputselect="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29">
+      <size>6</size>
+      <origin>-99.5896521781502</origin>
+      <spacing>3.99000000000864</spacing>
+      <gap>0.490000000008638</gap>
+      <datapoints label="acquisitiontimeindex">16 1 17 2 18 3 19 4 20 5 21 6 22 7 23 8 24 9 25 10 26 11 27 12 28 13 29 14 30 15</datapoints>
+      <direction>0.06278759 0.3023373 0.9511309</direction>
+      <units>mm</units>
+    </dimension>
+    <dimension type="t">
+      <size>157</size>
+      <origin>0</origin>
+      <spacing>2000</spacing>
+      <gap>0</gap>
+      <units>ms</units>
+    </dimension>
+    <byteorder>lsbfirst</byteorder>
+    <elementtype>uint16</elementtype>
+    <filename>000001.dcm</filename>
+    <fileoffset>170108</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000002.dcm</filename>
+    <fileoffset>170108</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000003.dcm</filename>
+    <fileoffset>170108</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000004.dcm</filename>
+    <fileoffset>170108</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000005.dcm</filename>
+    <fileoffset>170110</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000006.dcm</filename>
+    <fileoffset>170110</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000007.dcm</filename>
+    <fileoffset>170110</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000008.dcm</filename>
+    <fileoffset>170110</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000009.dcm</filename>
+    <fileoffset>170110</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000010.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000011.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000012.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000013.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000014.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000015.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000016.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000017.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000018.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000019.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000020.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000021.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000022.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000023.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000024.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000025.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000026.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000027.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000028.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000029.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000030.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000031.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000032.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000033.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000034.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000035.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000036.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000037.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000038.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000039.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000040.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000041.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000042.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000043.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000044.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000045.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000046.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000047.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000048.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000049.dcm</filename>
+    <fileoffset>170114</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000050.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000051.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000052.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000053.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000054.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000055.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000056.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000057.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000058.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000059.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000060.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000061.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000062.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000063.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000064.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000065.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000066.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000067.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000068.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000069.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000070.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000071.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000072.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000073.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000074.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000075.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000076.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000077.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000078.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000079.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000080.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000081.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000082.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000083.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000084.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000085.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000086.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000087.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000088.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000089.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000090.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000091.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000092.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000093.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000094.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000095.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000096.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000097.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000098.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000099.dcm</filename>
+    <fileoffset>170118</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000100.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000101.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000102.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000103.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000104.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000105.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000106.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000107.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000108.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000109.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000110.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000111.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000112.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000113.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000114.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000115.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000116.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000117.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000118.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000119.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000120.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000121.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000122.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000123.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000124.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000125.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000126.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000127.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000128.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000129.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000130.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000131.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000132.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000133.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000134.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000135.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000136.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000137.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000138.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000139.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000140.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000141.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000142.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000143.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000144.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000145.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000146.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000147.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000148.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000149.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000150.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000151.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000152.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000153.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000154.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000155.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000156.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+    <filename>000157.dcm</filename>
+    <fileoffset>170122</fileoffset>
+    <filerecordsize>460800</filerecordsize>
+  </datarec>
+  <provenance>
+    <processStep>
+      <programName>/data/QA/prisma/32CH/QA_prisma/bxh_xcede/bin/dicom2bxh</programName>
+      <programArgument>/data/QA/prisma/32CH/01032017/boldp2/000001.dcm /data/QA/prisma/32CH/01032017/boldp2/000002.dcm /data/QA/prisma/32CH/01032017/boldp2/000003.dcm /data/QA/prisma/32CH/01032017/boldp2/000004.dcm /data/QA/prisma/32CH/01032017/boldp2/000005.dcm /data/QA/prisma/32CH/01032017/boldp2/000006.dcm /data/QA/prisma/32CH/01032017/boldp2/000007.dcm /data/QA/prisma/32CH/01032017/boldp2/000008.dcm /data/QA/prisma/32CH/01032017/boldp2/000009.dcm /data/QA/prisma/32CH/01032017/boldp2/000010.dcm /data/QA/prisma/32CH/01032017/boldp2/000011.dcm /data/QA/prisma/32CH/01032017/boldp2/000012.dcm /data/QA/prisma/32CH/01032017/boldp2/000013.dcm /data/QA/prisma/32CH/01032017/boldp2/000014.dcm /data/QA/prisma/32CH/01032017/boldp2/000015.dcm /data/QA/prisma/32CH/01032017/boldp2/000016.dcm /data/QA/prisma/32CH/01032017/boldp2/000017.dcm /data/QA/prisma/32CH/01032017/boldp2/000018.dcm /data/QA/prisma/32CH/01032017/boldp2/000019.dcm /data/QA/prisma/32CH/01032017/boldp2/000020.dcm /data/QA/prisma/32CH/01032017/boldp2/000021.dcm /data/QA/prisma/32CH/01032017/boldp2/000022.dcm /data/QA/prisma/32CH/01032017/boldp2/000023.dcm /data/QA/prisma/32CH/01032017/boldp2/000024.dcm /data/QA/prisma/32CH/01032017/boldp2/000025.dcm /data/QA/prisma/32CH/01032017/boldp2/000026.dcm /data/QA/prisma/32CH/01032017/boldp2/000027.dcm /data/QA/prisma/32CH/01032017/boldp2/000028.dcm /data/QA/prisma/32CH/01032017/boldp2/000029.dcm /data/QA/prisma/32CH/01032017/boldp2/000030.dcm /data/QA/prisma/32CH/01032017/boldp2/000031.dcm /data/QA/prisma/32CH/01032017/boldp2/000032.dcm /data/QA/prisma/32CH/01032017/boldp2/000033.dcm /data/QA/prisma/32CH/01032017/boldp2/000034.dcm /data/QA/prisma/32CH/01032017/boldp2/000035.dcm /data/QA/prisma/32CH/01032017/boldp2/000036.dcm /data/QA/prisma/32CH/01032017/boldp2/000037.dcm /data/QA/prisma/32CH/01032017/boldp2/000038.dcm /data/QA/prisma/32CH/01032017/boldp2/000039.dcm /data/QA/prisma/32CH/01032017/boldp2/000040.dcm /data/QA/prisma/32CH/01032017/boldp2/000041.dcm /data/QA/prisma/32CH/01032017/boldp2/000042.dcm /data/QA/prisma/32CH/01032017/boldp2/000043.dcm /data/QA/prisma/32CH/01032017/boldp2/000044.dcm /data/QA/prisma/32CH/01032017/boldp2/000045.dcm /data/QA/prisma/32CH/01032017/boldp2/000046.dcm /data/QA/prisma/32CH/01032017/boldp2/000047.dcm /data/QA/prisma/32CH/01032017/boldp2/000048.dcm /data/QA/prisma/32CH/01032017/boldp2/000049.dcm /data/QA/prisma/32CH/01032017/boldp2/000050.dcm /data/QA/prisma/32CH/01032017/boldp2/000051.dcm /data/QA/prisma/32CH/01032017/boldp2/000052.dcm /data/QA/prisma/32CH/01032017/boldp2/000053.dcm /data/QA/prisma/32CH/01032017/boldp2/000054.dcm /data/QA/prisma/32CH/01032017/boldp2/000055.dcm /data/QA/prisma/32CH/01032017/boldp2/000056.dcm /data/QA/prisma/32CH/01032017/boldp2/000057.dcm /data/QA/prisma/32CH/01032017/boldp2/000058.dcm /data/QA/prisma/32CH/01032017/boldp2/000059.dcm /data/QA/prisma/32CH/01032017/boldp2/000060.dcm /data/QA/prisma/32CH/01032017/boldp2/000061.dcm /data/QA/prisma/32CH/01032017/boldp2/000062.dcm /data/QA/prisma/32CH/01032017/boldp2/000063.dcm /data/QA/prisma/32CH/01032017/boldp2/000064.dcm /data/QA/prisma/32CH/01032017/boldp2/000065.dcm /data/QA/prisma/32CH/01032017/boldp2/000066.dcm /data/QA/prisma/32CH/01032017/boldp2/000067.dcm /data/QA/prisma/32CH/01032017/boldp2/000068.dcm /data/QA/prisma/32CH/01032017/boldp2/000069.dcm /data/QA/prisma/32CH/01032017/boldp2/000070.dcm /data/QA/prisma/32CH/01032017/boldp2/000071.dcm /data/QA/prisma/32CH/01032017/boldp2/000072.dcm /data/QA/prisma/32CH/01032017/boldp2/000073.dcm /data/QA/prisma/32CH/01032017/boldp2/000074.dcm /data/QA/prisma/32CH/01032017/boldp2/000075.dcm /data/QA/prisma/32CH/01032017/boldp2/000076.dcm /data/QA/prisma/32CH/01032017/boldp2/000077.dcm /data/QA/prisma/32CH/01032017/boldp2/000078.dcm /data/QA/prisma/32CH/01032017/boldp2/000079.dcm /data/QA/prisma/32CH/01032017/boldp2/000080.dcm /data/QA/prisma/32CH/01032017/boldp2/000081.dcm /data/QA/prisma/32CH/01032017/boldp2/000082.dcm /data/QA/prisma/32CH/01032017/boldp2/000083.dcm /data/QA/prisma/32CH/01032017/boldp2/000084.dcm /data/QA/prisma/32CH/01032017/boldp2/000085.dcm /data/QA/prisma/32CH/01032017/boldp2/000086.dcm /data/QA/prisma/32CH/01032017/boldp2/000087.dcm /data/QA/prisma/32CH/01032017/boldp2/000088.dcm /data/QA/prisma/32CH/01032017/boldp2/000089.dcm /data/QA/prisma/32CH/01032017/boldp2/000090.dcm /data/QA/prisma/32CH/01032017/boldp2/000091.dcm /data/QA/prisma/32CH/01032017/boldp2/000092.dcm /data/QA/prisma/32CH/01032017/boldp2/000093.dcm /data/QA/prisma/32CH/01032017/boldp2/000094.dcm /data/QA/prisma/32CH/01032017/boldp2/000095.dcm /data/QA/prisma/32CH/01032017/boldp2/000096.dcm /data/QA/prisma/32CH/01032017/boldp2/000097.dcm /data/QA/prisma/32CH/01032017/boldp2/000098.dcm /data/QA/prisma/32CH/01032017/boldp2/000099.dcm /data/QA/prisma/32CH/01032017/boldp2/000100.dcm /data/QA/prisma/32CH/01032017/boldp2/000101.dcm /data/QA/prisma/32CH/01032017/boldp2/000102.dcm /data/QA/prisma/32CH/01032017/boldp2/000103.dcm /data/QA/prisma/32CH/01032017/boldp2/000104.dcm /data/QA/prisma/32CH/01032017/boldp2/000105.dcm /data/QA/prisma/32CH/01032017/boldp2/000106.dcm /data/QA/prisma/32CH/01032017/boldp2/000107.dcm /data/QA/prisma/32CH/01032017/boldp2/000108.dcm /data/QA/prisma/32CH/01032017/boldp2/000109.dcm /data/QA/prisma/32CH/01032017/boldp2/000110.dcm /data/QA/prisma/32CH/01032017/boldp2/000111.dcm /data/QA/prisma/32CH/01032017/boldp2/000112.dcm /data/QA/prisma/32CH/01032017/boldp2/000113.dcm /data/QA/prisma/32CH/01032017/boldp2/000114.dcm /data/QA/prisma/32CH/01032017/boldp2/000115.dcm /data/QA/prisma/32CH/01032017/boldp2/000116.dcm /data/QA/prisma/32CH/01032017/boldp2/000117.dcm /data/QA/prisma/32CH/01032017/boldp2/000118.dcm /data/QA/prisma/32CH/01032017/boldp2/000119.dcm /data/QA/prisma/32CH/01032017/boldp2/000120.dcm /data/QA/prisma/32CH/01032017/boldp2/000121.dcm /data/QA/prisma/32CH/01032017/boldp2/000122.dcm /data/QA/prisma/32CH/01032017/boldp2/000123.dcm /data/QA/prisma/32CH/01032017/boldp2/000124.dcm /data/QA/prisma/32CH/01032017/boldp2/000125.dcm /data/QA/prisma/32CH/01032017/boldp2/000126.dcm /data/QA/prisma/32CH/01032017/boldp2/000127.dcm /data/QA/prisma/32CH/01032017/boldp2/000128.dcm /data/QA/prisma/32CH/01032017/boldp2/000129.dcm /data/QA/prisma/32CH/01032017/boldp2/000130.dcm /data/QA/prisma/32CH/01032017/boldp2/000131.dcm /data/QA/prisma/32CH/01032017/boldp2/000132.dcm /data/QA/prisma/32CH/01032017/boldp2/000133.dcm /data/QA/prisma/32CH/01032017/boldp2/000134.dcm /data/QA/prisma/32CH/01032017/boldp2/000135.dcm /data/QA/prisma/32CH/01032017/boldp2/000136.dcm /data/QA/prisma/32CH/01032017/boldp2/000137.dcm /data/QA/prisma/32CH/01032017/boldp2/000138.dcm /data/QA/prisma/32CH/01032017/boldp2/000139.dcm /data/QA/prisma/32CH/01032017/boldp2/000140.dcm /data/QA/prisma/32CH/01032017/boldp2/000141.dcm /data/QA/prisma/32CH/01032017/boldp2/000142.dcm /data/QA/prisma/32CH/01032017/boldp2/000143.dcm /data/QA/prisma/32CH/01032017/boldp2/000144.dcm /data/QA/prisma/32CH/01032017/boldp2/000145.dcm /data/QA/prisma/32CH/01032017/boldp2/000146.dcm /data/QA/prisma/32CH/01032017/boldp2/000147.dcm /data/QA/prisma/32CH/01032017/boldp2/000148.dcm /data/QA/prisma/32CH/01032017/boldp2/000149.dcm /data/QA/prisma/32CH/01032017/boldp2/000150.dcm /data/QA/prisma/32CH/01032017/boldp2/000151.dcm /data/QA/prisma/32CH/01032017/boldp2/000152.dcm /data/QA/prisma/32CH/01032017/boldp2/000153.dcm /data/QA/prisma/32CH/01032017/boldp2/000154.dcm /data/QA/prisma/32CH/01032017/boldp2/000155.dcm /data/QA/prisma/32CH/01032017/boldp2/000156.dcm /data/QA/prisma/32CH/01032017/boldp2/000157.dcm</programArgument>
+      <version>BXH utilities (1.11.1)</version>
+      <timeStamp>2017-01-03 13:14:00</timeStamp>
+      <cvs>/home/sg9/commonlibs/bxh_xcede_tools-1.11.1/libsrc/bxh_dom_utils.cpp v1.41
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.1/libsrc/bxh_signa.c v1.49
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.1/utils/bxhabsorb.c v1.39
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.1/libsrc/bxh_datarec.cpp v1.89
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.1/libsrc/bxh_dicom.cpp v1.1
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.1/libsrc/bxh_utils.cpp v1.67
+</cvs>
+      <user>kodiweera</user>
+      <machine>(unknown)</machine>
+      <platform>(unknown)</platform>
+      <platformVersion/>
+    </processStep>
+  </provenance>
+</serieslevel>

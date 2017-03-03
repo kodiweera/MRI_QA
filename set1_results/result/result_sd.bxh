@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<bxh xmlns="http://www.biac.duke.edu/bxh" xmlns:bxh="http://www.biac.duke.edu/bxh" version="1.0">
+  <datarec type="image">
+    <dimension type="x">
+      <units>mm</units>
+      <size>80</size>
+      <origin>131.38520935356</origin>
+      <gap>0</gap>
+      <spacing>3</spacing>
+      <direction>-0.9792894 0.2024654 0.0002884583</direction>
+    </dimension>
+    <dimension type="y">
+      <units>mm</units>
+      <size>80</size>
+      <origin>78.0432053524457</origin>
+      <gap>0</gap>
+      <spacing>3</spacing>
+      <direction>-0.1924839 -0.9314504 0.308788</direction>
+    </dimension>
+    <byteorder>lsbfirst</byteorder>
+    <elementtype>float32</elementtype>
+    <filename>result_sd.img</filename>
+    <fileoffset>0</fileoffset>
+    <filerecordsize>25600</filerecordsize>
+  </datarec>
+  <acquisitiondata>
+    <scanner>AWP66112</scanner>
+    <psdname>%SiemensSeq%\ep2d_bold</psdname>
+    <examnumber>18</examnumber>
+    <studyid>QA</studyid>
+    <seriesnumber>5</seriesnumber>
+    <runnumber>1</runnumber>
+    <scanningsequence>EP</scanningsequence>
+    <sequencevariant>SK</sequencevariant>
+    <magneticfield>3</magneticfield>
+    <description>BOLD_p2</description>
+    <scandate>2017-01-03</scandate>
+    <scantime>11:15:05</scantime>
+    <tr>2000</tr>
+    <te>35.000000</te>
+    <flipangle>90</flipangle>
+    <prescribedslicespacing>3.99</prescribedslicespacing>
+    <frequencydirection>1</frequencydirection>
+    <acquisitionmatrix>80 80</acquisitionmatrix>
+    <bandwidth>185.2</bandwidth>
+    <transmitcoilname>Body</transmitcoilname>
+    <institution>Dartmouth College - PBS</institution>
+    <examdescription>dbic^QA</examdescription>
+    <scanner>AWP66112</scanner>
+    <scannermanufacturer>SIEMENS</scannermanufacturer>
+    <scannermodelname>Prisma</scannermodelname>
+    <fieldofview>240 240</fieldofview>
+    <psdname>%SiemensSeq%\ep2d_bold</psdname>
+    <protocolname>BOLD_p2 (BOLD_p2) </protocolname>
+    <institutionaddress>Maynard 3,Hanover,NH,US,03755</institutionaddress>
+    <institutionaldepartmentname>Department</institutionaldepartmentname>
+    <acqParam name="scanoptions" type="varchar">FS</acqParam>
+    <acqParam name="mracquisitiontype" type="varchar">2D</acqParam>
+    <acqParam name="sequencename" type="varchar">*epfid2d1_80</acqParam>
+    <acqParam name="angioflag" type="varchar">N</acqParam>
+    <acqParam name="numaverages" type="varchar">1</acqParam>
+    <acqParam name="imagingfrequency" type="varchar">123.252609</acqParam>
+    <acqParam name="imagednucleus" type="varchar">1H</acqParam>
+    <acqParam name="spacingbetweenslices" type="varchar">3.9900000049744</acqParam>
+    <acqParam name="numphaseencodingsteps" type="varchar">79</acqParam>
+    <acqParam name="echotrainlength" type="varchar">39</acqParam>
+    <acqParam name="percentsampling" type="varchar">100</acqParam>
+    <acqParam name="percentphasefieldofview" type="varchar">100</acqParam>
+    <acqParam name="scannerserialnumber" type="varchar">66112</acqParam>
+    <acqParam name="softwareversions" type="varchar">syngo MR E11</acqParam>
+    <acqParam name="inplanephaseencodingdirection" type="varchar">COL</acqParam>
+    <acqParam name="variableflipangleflag" type="varchar">N</acqParam>
+    <acqParam name="sar" type="varchar">0.05562418006856</acqParam>
+    <acqParam name="dBdt" type="varchar">0</acqParam>
+    <acqParam name="acquisitionnumber" type="varchar">1</acqParam>
+    <acqParam name="instancenumber" type="varchar">1</acqParam>
+    <acqParam name="samplesperpixel" type="varchar">1</acqParam>
+    <acqParam name="photometricinterpretation" type="varchar">MONOCHROME2</acqParam>
+    <acqParam name="rows" type="varchar">480</acqParam>
+    <acqParam name="columns" type="varchar">480</acqParam>
+    <acqParam name="bitsallocated" type="varchar">16</acqParam>
+    <acqParam name="bitsstored" type="varchar">12</acqParam>
+    <acqParam name="highbit" type="varchar">11</acqParam>
+    <pixelbandwidth>2315</pixelbandwidth>
+    <acqParam name="otherinfo" type="varchar"/>
+    <sliceorder>2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,1,3,5,7,9,11,13,15,17,19,21,23,25,27,29</sliceorder>
+  </acquisitiondata>
+  <subject>
+    <age>17</age>
+    <name>QA</name>
+    <sex>O</sex>
+  </subject>
+  <history>
+    <entry>
+      <date>2017-01-03 13:14:00</date>
+      <description>
+        <processStep>
+          <programName>/data/QA/prisma/32CH/QA_prisma/bxh_xcede/bin/dicom2bxh</programName>
+          <programArgument>/data/QA/prisma/32CH/01032017/boldp2/000001.dcm /data/QA/prisma/32CH/01032017/boldp2/000002.dcm /data/QA/prisma/32CH/01032017/boldp2/000003.dcm /data/QA/prisma/32CH/01032017/boldp2/000004.dcm /data/QA/prisma/32CH/01032017/boldp2/000005.dcm /data/QA/prisma/32CH/01032017/boldp2/000006.dcm /data/QA/prisma/32CH/01032017/boldp2/000007.dcm /data/QA/prisma/32CH/01032017/boldp2/000008.dcm /data/QA/prisma/32CH/01032017/boldp2/000009.dcm /data/QA/prisma/32CH/01032017/boldp2/000010.dcm /data/QA/prisma/32CH/01032017/boldp2/000011.dcm /data/QA/prisma/32CH/01032017/boldp2/000012.dcm /data/QA/prisma/32CH/01032017/boldp2/000013.dcm /data/QA/prisma/32CH/01032017/boldp2/000014.dcm /data/QA/prisma/32CH/01032017/boldp2/000015.dcm /data/QA/prisma/32CH/01032017/boldp2/000016.dcm /data/QA/prisma/32CH/01032017/boldp2/000017.dcm /data/QA/prisma/32CH/01032017/boldp2/000018.dcm /data/QA/prisma/32CH/01032017/boldp2/000019.dcm /data/QA/prisma/32CH/01032017/boldp2/000020.dcm /data/QA/prisma/32CH/01032017/boldp2/000021.dcm /data/QA/prisma/32CH/01032017/boldp2/000022.dcm /data/QA/prisma/32CH/01032017/boldp2/000023.dcm /data/QA/prisma/32CH/01032017/boldp2/000024.dcm /data/QA/prisma/32CH/01032017/boldp2/000025.dcm /data/QA/prisma/32CH/01032017/boldp2/000026.dcm /data/QA/prisma/32CH/01032017/boldp2/000027.dcm /data/QA/prisma/32CH/01032017/boldp2/000028.dcm /data/QA/prisma/32CH/01032017/boldp2/000029.dcm /data/QA/prisma/32CH/01032017/boldp2/000030.dcm /data/QA/prisma/32CH/01032017/boldp2/000031.dcm /data/QA/prisma/32CH/01032017/boldp2/000032.dcm /data/QA/prisma/32CH/01032017/boldp2/000033.dcm /data/QA/prisma/32CH/01032017/boldp2/000034.dcm /data/QA/prisma/32CH/01032017/boldp2/000035.dcm /data/QA/prisma/32CH/01032017/boldp2/000036.dcm /data/QA/prisma/32CH/01032017/boldp2/000037.dcm /data/QA/prisma/32CH/01032017/boldp2/000038.dcm /data/QA/prisma/32CH/01032017/boldp2/000039.dcm /data/QA/prisma/32CH/01032017/boldp2/000040.dcm /data/QA/prisma/32CH/01032017/boldp2/000041.dcm /data/QA/prisma/32CH/01032017/boldp2/000042.dcm /data/QA/prisma/32CH/01032017/boldp2/000043.dcm /data/QA/prisma/32CH/01032017/boldp2/000044.dcm /data/QA/prisma/32CH/01032017/boldp2/000045.dcm /data/QA/prisma/32CH/01032017/boldp2/000046.dcm /data/QA/prisma/32CH/01032017/boldp2/000047.dcm /data/QA/prisma/32CH/01032017/boldp2/000048.dcm /data/QA/prisma/32CH/01032017/boldp2/000049.dcm /data/QA/prisma/32CH/01032017/boldp2/000050.dcm /data/QA/prisma/32CH/01032017/boldp2/000051.dcm /data/QA/prisma/32CH/01032017/boldp2/000052.dcm /data/QA/prisma/32CH/01032017/boldp2/000053.dcm /data/QA/prisma/32CH/01032017/boldp2/000054.dcm /data/QA/prisma/32CH/01032017/boldp2/000055.dcm /data/QA/prisma/32CH/01032017/boldp2/000056.dcm /data/QA/prisma/32CH/01032017/boldp2/000057.dcm /data/QA/prisma/32CH/01032017/boldp2/000058.dcm /data/QA/prisma/32CH/01032017/boldp2/000059.dcm /data/QA/prisma/32CH/01032017/boldp2/000060.dcm /data/QA/prisma/32CH/01032017/boldp2/000061.dcm /data/QA/prisma/32CH/01032017/boldp2/000062.dcm /data/QA/prisma/32CH/01032017/boldp2/000063.dcm /data/QA/prisma/32CH/01032017/boldp2/000064.dcm /data/QA/prisma/32CH/01032017/boldp2/000065.dcm /data/QA/prisma/32CH/01032017/boldp2/000066.dcm /data/QA/prisma/32CH/01032017/boldp2/000067.dcm /data/QA/prisma/32CH/01032017/boldp2/000068.dcm /data/QA/prisma/32CH/01032017/boldp2/000069.dcm /data/QA/prisma/32CH/01032017/boldp2/000070.dcm /data/QA/prisma/32CH/01032017/boldp2/000071.dcm /data/QA/prisma/32CH/01032017/boldp2/000072.dcm /data/QA/prisma/32CH/01032017/boldp2/000073.dcm /data/QA/prisma/32CH/01032017/boldp2/000074.dcm /data/QA/prisma/32CH/01032017/boldp2/000075.dcm /data/QA/prisma/32CH/01032017/boldp2/000076.dcm /data/QA/prisma/32CH/01032017/boldp2/000077.dcm /data/QA/prisma/32CH/01032017/boldp2/000078.dcm /data/QA/prisma/32CH/01032017/boldp2/000079.dcm /data/QA/prisma/32CH/01032017/boldp2/000080.dcm /data/QA/prisma/32CH/01032017/boldp2/000081.dcm /data/QA/prisma/32CH/01032017/boldp2/000082.dcm /data/QA/prisma/32CH/01032017/boldp2/000083.dcm /data/QA/prisma/32CH/01032017/boldp2/000084.dcm /data/QA/prisma/32CH/01032017/boldp2/000085.dcm /data/QA/prisma/32CH/01032017/boldp2/000086.dcm /data/QA/prisma/32CH/01032017/boldp2/000087.dcm /data/QA/prisma/32CH/01032017/boldp2/000088.dcm /data/QA/prisma/32CH/01032017/boldp2/000089.dcm /data/QA/prisma/32CH/01032017/boldp2/000090.dcm /data/QA/prisma/32CH/01032017/boldp2/000091.dcm /data/QA/prisma/32CH/01032017/boldp2/000092.dcm /data/QA/prisma/32CH/01032017/boldp2/000093.dcm /data/QA/prisma/32CH/01032017/boldp2/000094.dcm /data/QA/prisma/32CH/01032017/boldp2/000095.dcm /data/QA/prisma/32CH/01032017/boldp2/000096.dcm /data/QA/prisma/32CH/01032017/boldp2/000097.dcm /data/QA/prisma/32CH/01032017/boldp2/000098.dcm /data/QA/prisma/32CH/01032017/boldp2/000099.dcm /data/QA/prisma/32CH/01032017/boldp2/000100.dcm /data/QA/prisma/32CH/01032017/boldp2/000101.dcm /data/QA/prisma/32CH/01032017/boldp2/000102.dcm /data/QA/prisma/32CH/01032017/boldp2/000103.dcm /data/QA/prisma/32CH/01032017/boldp2/000104.dcm /data/QA/prisma/32CH/01032017/boldp2/000105.dcm /data/QA/prisma/32CH/01032017/boldp2/000106.dcm /data/QA/prisma/32CH/01032017/boldp2/000107.dcm /data/QA/prisma/32CH/01032017/boldp2/000108.dcm /data/QA/prisma/32CH/01032017/boldp2/000109.dcm /data/QA/prisma/32CH/01032017/boldp2/000110.dcm /data/QA/prisma/32CH/01032017/boldp2/000111.dcm /data/QA/prisma/32CH/01032017/boldp2/000112.dcm /data/QA/prisma/32CH/01032017/boldp2/000113.dcm /data/QA/prisma/32CH/01032017/boldp2/000114.dcm /data/QA/prisma/32CH/01032017/boldp2/000115.dcm /data/QA/prisma/32CH/01032017/boldp2/000116.dcm /data/QA/prisma/32CH/01032017/boldp2/000117.dcm /data/QA/prisma/32CH/01032017/boldp2/000118.dcm /data/QA/prisma/32CH/01032017/boldp2/000119.dcm /data/QA/prisma/32CH/01032017/boldp2/000120.dcm /data/QA/prisma/32CH/01032017/boldp2/000121.dcm /data/QA/prisma/32CH/01032017/boldp2/000122.dcm /data/QA/prisma/32CH/01032017/boldp2/000123.dcm /data/QA/prisma/32CH/01032017/boldp2/000124.dcm /data/QA/prisma/32CH/01032017/boldp2/000125.dcm /data/QA/prisma/32CH/01032017/boldp2/000126.dcm /data/QA/prisma/32CH/01032017/boldp2/000127.dcm /data/QA/prisma/32CH/01032017/boldp2/000128.dcm /data/QA/prisma/32CH/01032017/boldp2/000129.dcm /data/QA/prisma/32CH/01032017/boldp2/000130.dcm /data/QA/prisma/32CH/01032017/boldp2/000131.dcm /data/QA/prisma/32CH/01032017/boldp2/000132.dcm /data/QA/prisma/32CH/01032017/boldp2/000133.dcm /data/QA/prisma/32CH/01032017/boldp2/000134.dcm /data/QA/prisma/32CH/01032017/boldp2/000135.dcm /data/QA/prisma/32CH/01032017/boldp2/000136.dcm /data/QA/prisma/32CH/01032017/boldp2/000137.dcm /data/QA/prisma/32CH/01032017/boldp2/000138.dcm /data/QA/prisma/32CH/01032017/boldp2/000139.dcm /data/QA/prisma/32CH/01032017/boldp2/000140.dcm /data/QA/prisma/32CH/01032017/boldp2/000141.dcm /data/QA/prisma/32CH/01032017/boldp2/000142.dcm /data/QA/prisma/32CH/01032017/boldp2/000143.dcm /data/QA/prisma/32CH/01032017/boldp2/000144.dcm /data/QA/prisma/32CH/01032017/boldp2/000145.dcm /data/QA/prisma/32CH/01032017/boldp2/000146.dcm /data/QA/prisma/32CH/01032017/boldp2/000147.dcm /data/QA/prisma/32CH/01032017/boldp2/000148.dcm /data/QA/prisma/32CH/01032017/boldp2/000149.dcm /data/QA/prisma/32CH/01032017/boldp2/000150.dcm /data/QA/prisma/32CH/01032017/boldp2/000151.dcm /data/QA/prisma/32CH/01032017/boldp2/000152.dcm /data/QA/prisma/32CH/01032017/boldp2/000153.dcm /data/QA/prisma/32CH/01032017/boldp2/000154.dcm /data/QA/prisma/32CH/01032017/boldp2/000155.dcm /data/QA/prisma/32CH/01032017/boldp2/000156.dcm /data/QA/prisma/32CH/01032017/boldp2/000157.dcm</programArgument>
+          <version>BXH utilities (1.11.1)</version>
+          <timeStamp>2017-01-03 13:14:00</timeStamp>
+          <cvs>/home/sg9/commonlibs/bxh_xcede_tools-1.11.1/libsrc/bxh_dom_utils.cpp v1.41
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.1/libsrc/bxh_signa.c v1.49
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.1/utils/bxhabsorb.c v1.39
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.1/libsrc/bxh_datarec.cpp v1.89
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.1/libsrc/bxh_dicom.cpp v1.1
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.1/libsrc/bxh_utils.cpp v1.67
+</cvs>
+          <user>kodiweera</user>
+          <machine>(unknown)</machine>
+          <platform>(unknown)</platform>
+          <platformVersion/>
+        </processStep>
+      </description>
+    </entry>
+    <entry>
+      <date>2017-01-03 13:14:03</date>
+      <description>
+Generated on head1 by '/data/QA/prisma/32CH/QA_prisma/bxh_xcede/bin/fmriqa_phantomqa' (BXH utilities (1.11.1)) from 1 input args: /data/QA/prisma/32CH/01032017/boldp2/result.xml
+BXH utilities (1.11.1)</description>
+    </entry>
+  </history>
+</bxh>
